@@ -200,6 +200,7 @@
       <types>String</types>
       <stringQualifiers/>
     </type>
+    <multiLine>true</multiLine>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillValue xsi:type="core:StringValue">
@@ -215,13 +216,13 @@
       <value>Контактное лицо</value>
     </synonym>
     <type>
-      <types>CatalogRef.Контрагенты</types>
+      <types>CatalogRef.ТП_КонтактныеЛица</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillChecking>ShowError</fillChecking>
     <choiceParameterLinks>
-      <name>Отбор.ИНН</name>
+      <name>Отбор.Владелец</name>
       <field>Document.РеализацияТоваровУслуг.Attribute.Контрагент</field>
     </choiceParameterLinks>
     <fillValue xsi:type="core:UndefinedValue"/>
